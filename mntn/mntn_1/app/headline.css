@@ -1,0 +1,87 @@
+.centered-container {
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use 100% of the viewport height */
+  }
+  
+  .centered-element {
+    text-align: center;
+  }
+  
+  .old {
+    font-family: 'Chronicle Display-Semibold', sans-serif;
+  }
+  
+  .content {
+    align-items: flex-start;
+    display: block; /* Change to flex to allow stacking */
+    flex-direction: column; /* Stack items vertically */
+    gap: 32px;
+    position: relative;
+  }
+  
+  .content .group {
+    height: auto; /* Adjust to 'auto' to allow the content to determine the height */
+    position: relative;
+    width: 318px;
+  }
+  
+  .content .a-hiking-guide {
+    color: var(--accent);
+    font-family: "Gilroy-ExtraBold", Helvetica;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    position: relative;
+    margin-top: -14px;
+    margin-left: 100px;
+    height: 22px;
+    width: auto; /* Adjust to 'auto' to allow the text to take the full width */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .content .rectangle {
+    background-color: var(--accent);
+    height: 2px;
+    left: 0;
+    position: relative;
+    width: 72px;
+    margin-right: 6px;
+    margin-top: 0px;
+  }
+  
+  .content .be-prepared-for-the {
+    color: var(--wei);
+    font-family: "Chronicle Display-Semibold", Helvetica;
+    font-size: 88px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 100px;
+    position: relative;
+    width: 950px;
+  }
+  
+  .content .div-header {
+    height: 15px;
+    position: relative;
+    width: 128px;
+    margin-top: 30px;
+  }
+  
+  .content .scroll-down {
+    color: #ffffff;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+  }
+  
+  .content .icon-navigation-arrow-downward-24px {
+    left: 110px !important;
+  }
+  

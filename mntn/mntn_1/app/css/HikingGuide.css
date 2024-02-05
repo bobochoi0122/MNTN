@@ -1,0 +1,121 @@
+.content {
+    height: 720px;
+    position: relative;
+    width: 1462px;
+}
+
+.content .overlap-group {
+    height: 543px;
+    left: 0;
+    position: absolute;
+    top: 37px;
+    width: 782px;
+}
+
+.content .equipment {
+    color: #ffffff;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-size: 240px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 240px;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.content .div {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 27px;
+    left: 150px;
+    position: absolute;
+    top: 104px;
+}
+
+.content .tagline {
+    height: 22px;
+    position: relative;
+    width: 270px;
+}
+
+.content .get-started {
+    color: var(--accent);
+    font-family: "Gilroy-ExtraBold", Helvetica;
+    font-size: 18px;
+    font-weight: 800;
+    left: 96px;
+    letter-spacing: 6px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+
+.content .line {
+    background-color: var(--accent);
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 72px;
+}
+
+.content .what-level-of-hiker {
+    color: #ffffff;
+    font-family: "Chronicle Display-Semibold", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 555px;
+}
+
+.content .text-wrapper {
+    color: #ffffff;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    width: 632px;
+}
+
+.content .more {
+    height: 22px;
+    position: relative;
+    width: 129px;
+}
+
+.content .equipment-2 {
+    color: var(--accent);
+    font-family: "Gilroy-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+
+.content .icon-navigation {
+    height: 16px !important;
+    left: 103px !important;
+    position: absolute !important;
+    top: 3px !important;
+    width: 24px !important;
+}
+
+.content .element {
+    height: 720px;
+    left: 896px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 566px;
+}
