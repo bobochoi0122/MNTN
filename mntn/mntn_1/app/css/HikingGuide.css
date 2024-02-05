@@ -24,6 +24,22 @@
     position: absolute;
     top: 0;
     white-space: nowrap;
+    
+}
+
+.content .equipment_left {
+    color: #ffffff;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-size: 240px;
+    font-weight: 700;
+    right: 0;
+    letter-spacing: 0;
+    line-height: 240px;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    left: 98vh;
 }
 
 .content .div {
@@ -36,6 +52,16 @@
     top: 104px;
 }
 
+.content .div_left {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 27px;
+    right: 0;
+    position: absolute;
+    top: 104px;
+    left: 120vh; 
+}
 .content .tagline {
     height: 22px;
     position: relative;
@@ -52,6 +78,8 @@
     line-height: normal;
     position: absolute;
     top: 0;
+    white-space: nowrap; /* Prevent text from wrapping */
+
 }
 
 .content .line {
@@ -114,6 +142,14 @@
 .content .element {
     height: 720px;
     left: 896px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 566px;
+}
+.content .element_left {
+    height: 720px;
+    left: auto;
     object-fit: cover;
     position: absolute;
     top: 0;

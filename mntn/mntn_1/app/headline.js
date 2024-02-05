@@ -4,7 +4,7 @@ import "./headline.css";
 
 const Headline = () => {
   return (
-    <div className="centered-container">
+    <>
       <div className="group">
       <div className="rectangle" />
         <div className="a-hiking-guide">A HIKING GUIDE</div>
@@ -17,7 +17,7 @@ const Headline = () => {
          </div>
       
       </div>
-    </div>
+      </>
   );
 };
 

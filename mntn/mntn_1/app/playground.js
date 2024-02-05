@@ -4,23 +4,18 @@ import PropTypes from "prop-types";
 import "./css/HikingGuide.css";
 
 const Content = ({ equipmentNumber, taglineText, hikerLevel, description, readMoreText, imageSrc }) => {
-    
-    
-    {/*here we take the equipmentNumber to see where the image should go // thanks chatgpt:D*/}
-    const isEven = parseInt(Number(equipmentNumber,10)) % 2 === 0;
+    const isEven = equipmentNumber % 2 === 0;
 
     return (
         <div className="content">
             <div className="overlap-group">
-                {/*If the equipment number is even, the image will be on the left side of the content // thanks copilot:D*/}
-                {isEven ? ( 
+                {isEven ? (
                     <>
-                    {/*If the equipment number is even, the image will be on the left side of the content*/}
-                        <img className="element_left" alt="Element" src={imageSrc} />
-                        <div className="equipment_left">{equipmentNumber}</div>
-                        <div className="div_left">
+                        <img className="element" alt="Element" src={imageSrc} />
+                        <div className="equipment">{equipmentNumber}</div>
+                        <div className="div">
                             <div className="tagline">
-                                <div className="get-started">{taglineText}</div>
+                                <div className="get-started">GET STARTED</div>
                                 <div className="line" />
                             </div>
                             <p className="what-level-of-hiker">{hikerLevel}</p>
@@ -33,12 +28,10 @@ const Content = ({ equipmentNumber, taglineText, hikerLevel, description, readMo
                     </>
                 ) : (
                     <>
-                    {/*If the equipment number is odd, the image will be on the right side of the content*/}
-                    <img className="element" alt="Element" src={imageSrc} />
                       <div className="equipment">{equipmentNumber}</div>
                         <div className="div">
                             <div className="tagline">
-                                <div className="get-started">{taglineText}</div>
+                                <div className="get-started">GET STARTED</div>
                                 <div className="line" />
                             </div>
                             <p className="what-level-of-hiker">{hikerLevel}</p>
@@ -48,7 +41,7 @@ const Content = ({ equipmentNumber, taglineText, hikerLevel, description, readMo
                                 {/* <ArrowDownward24Px className="icon-navigation" /> */}
                             </div>
                         </div>
-                        
+                        <img className="element" alt="Element" src={imageSrc} />
                     </>
                 )}
             </div>

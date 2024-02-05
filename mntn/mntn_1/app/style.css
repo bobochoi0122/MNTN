@@ -5,6 +5,12 @@
     height: 100vh; /* Use 100% of the viewport height */
   }
   
+  .centered-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
   .centered-element {
     text-align: center;
   }

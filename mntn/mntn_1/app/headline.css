@@ -18,7 +18,17 @@
     display: block; /* Change to flex to allow stacking */
     flex-direction: column; /* Stack items vertically */
     gap: 32px;
-    position: relative;
+    position: center; /* Change to relative to center the content */
+    top: 300px;
+  }
+  .content_header {
+    align-items: flex-start;
+    display: block; /* Change to flex to allow stacking */
+    flex-direction: column; /* Stack items vertically */
+    gap: 32px;
+    position: center; /* Change to relative to center the content */
+    top: 300px;
+    left: 300px;
   }
   
   .content .group {

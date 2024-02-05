@@ -12,9 +12,10 @@ export default function Home() {
     <Container maxWidth="100%">
       {/* The Appbar */}
       <div><Demo/></div>
+
       {/* The Headline */}
-        <Headline1 />
-     
+        <Headline1/>
+       
       {/* The Content */}
       <Content
                 equipmentNumber="01"
@@ -26,18 +27,19 @@ export default function Home() {
             />
             <Content
                 equipmentNumber="02"
-                taglineText="GET MOVING"
-                hikerLevel="Explore the Trails"
+                taglineText="HIKING ESSENTIALS"
+                hikerLevel="Picking the right Hiking Gear!"
                 imageSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2WzAQoCkT1CIWIfMFlBUdL9I9QPqqlmrG14sclqk97w&s"
-                description="Explore beautiful trails and enjoy nature. Whether you're a beginner or an experienced hiker, there's always a trail waiting for you. Find your next adventure and get moving!"
-                readMoreText="discover more"
+                description="The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have.
+                Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet."
+                readMoreText="read more"
             />
             <Content
                 equipmentNumber="03"
-                taglineText="GET OUTDOORS"
-                hikerLevel="Connect with Nature"
+                taglineText="WHERE YOU GO IS THE KEY"
+                hikerLevel="Understand Your Map & Timing"
                 description="Immerse yourself in the wonders of the great outdoors. Connect with nature, breathe in the fresh air, and experience the joy of outdoor activities. Get outdoors and create lasting memories."
-                readMoreText="explore now"
+                readMoreText="read more"
                 imageSrc="./images/03.jpg"
             />
       
